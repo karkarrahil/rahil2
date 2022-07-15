@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: whitesmoke;
+}
+/* header css  */
+header {
+    background-color: #1abc9c;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: sticky;
+    top:0;
+}
+
+.h2 {
+
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+nav i {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+
+    display: inline-block;
+    padding: 20px;
+
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: aliceblue;
+
+}
+
+li a:hover {
+    color: #c5d8d4;
+}
+
+
+/* container css  */
+.container{
+    margin: auto;
+}
+.product{
+    text-align: center;
+    padding: 12px;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 4px auto;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.part-i {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* font-family: 'Edu TAS Beginner', cursive; */
+    font-size: 2rem;
+}
+
+.phone {
+    width: 740px;
+}
+
+
+
+.cpart-i h2 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.text {
+    width: 50%;
+    /* border: 2px solid green; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.text p{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    padding: 12px;
+}
+/* ****** card css ****** */
+h1{
+    font-size: 2rem;
+}
+.products{
+    display: grid;
+    width: 1200px;
+    margin: auto;
+    padding: 18px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    background-color: gray;
+    
+}
+.products .card{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    border-radius: 12px;
+    
+}
+.products .card .imgx{
+    position: relative;
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+    
+}
+.products .card .imgx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.4s ease-in-out;
+}
+.contant{
+    text-align: center;
+    padding: 6px;
+    position: relative;
+    bottom: 12px;
+}
+.products .card:hover .imgx img{
+    transform: scale(1.1);
+    cursor: pointer;
+    transform-origin: right;
+}
+.productName h3{
+    font-size: 24px;
+    color: #ffffff;
+
+}
+.pricing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.pricing h2{
+    color: white;
+}
+.rating i{
+    color: aliceblue;
+}
+
+/* footer css  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ******utilities classe******* */
+
+button{
+    padding: 20px;
+    min-width: 7vw;
+    background:#1abc9c;
+    border-radius: 40px;
+    margin: 5px;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    font-weight: bold;
+}
+button:hover{
+    background:#a9d6cd;
+    cursor: pointer;
+}
